@@ -14,5 +14,4 @@
 
 # 1 byte are 8 biti
 # 1 byte prezinta 2 esantioane
-# 1 esantion prezinta 8 biti
 # Deci vom avea x = (2000(frecventa) * 3600(1 ora)) / 2 = 3600000 bytes/ora
