@@ -1,0 +1,1 @@
+# Singura vocala pe care pot sa o disting una de cealalta este u
