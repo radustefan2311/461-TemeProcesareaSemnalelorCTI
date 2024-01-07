@@ -49,7 +49,6 @@ def sub_a():
 
     plt.show()
 
-#ex2
 def sub_b_2():
     X_rgb = misc.face()
     X_ycbcr = color.rgb2ycbcr(X_rgb) # X_ycbcr este creat prin conversia imaginii RGB în spațiul de culoare YCbCr folosind color.rgb2ycbcr().
@@ -156,7 +155,7 @@ def sub_c(X, Q_jpeg, mse_limit):
                 x_jpeg = idctn(y_jpeg)
                 blocks.append(x_jpeg)
 
-        compressed_image = np.block([blocks[i : i + columns // 8] for i in range(0, len[block], columns // 8)])
+        compressed_image = np.block([blocks[i : i + columns // 8] for i in range(0, len[blocks], columns // 8)])
         mse = mse_calc(X, compressed_image)
 
     plt.subplot(1, 2, 1)
