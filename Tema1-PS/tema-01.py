@@ -49,7 +49,7 @@ def sub_a():
 
     plt.show()
 
-def sub_b_2():
+def sub_b():
     X_rgb = misc.face()
     X_ycbcr = color.rgb2ycbcr(X_rgb) # X_ycbcr este creat prin conversia imaginii RGB în spațiul de culoare YCbCr folosind color.rgb2ycbcr().
 
