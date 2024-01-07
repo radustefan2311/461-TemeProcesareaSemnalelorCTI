@@ -112,8 +112,7 @@ def sub_b_2():
 
     # Combinam componentele Y, Cb și Cr pentru a obține imaginea YCbCr comprimată
     compressed_image = np.stack([compressed_image_Y, compressed_image_Cb, compressed_image_Cr], axis=2)
-
-    # Display the images
+        
     plt.subplot(1, 2, 1)
     plt.imshow(X_rgb)
     plt.title('Imaginea originala')
